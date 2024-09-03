@@ -1,0 +1,93 @@
+.trainer-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #3ee7ff;
+    object-fit: cover;
+}
+
+.trainer-title span {
+    font-size: 18px;
+}
+
+.sessions-icons {
+    width: 4%;
+    font-size: 16px
+}
+
+.sessions-details-span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.session-details-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.session-container{
+    min-height: 70vh;
+    overflow: auto;
+}
+
+.infinite-scroll-component {
+    overflow: hidden !important;
+}
+
+@media screen and (min-width: 320px) {
+    .trainer-profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .trainer-profile-image {
+        width: 120px;
+        height: 120px;
+        min-width: 120px;
+        min-height: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .trainer-profile-image {
+        width: 125px;
+        height: 125px;
+        min-width: 125px;
+        min-height: 125px;
+    }
+
+    .sessions-icons {
+        width: 6%;
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .trainer-profile-image {
+        width: 120px;
+        height: 120px;
+        min-width: 120px;
+        min-height: 120px;
+    }
+    .sessions-icons {
+        width: 4%;
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .trainer-profile-image {
+        width: 120px;
+        height: 120px;
+        min-width: 120px;
+        min-height: 120px;
+    }
+    .sessions-icons {
+        width: 4%;
+        font-size: 16px
+    }
+}

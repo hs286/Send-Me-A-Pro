@@ -1,0 +1,36 @@
+#trainer-profile-sidebar {
+  width: 40% !important;
+}
+
+#trainer-profile-sidebar .offcanvas-body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#trainer-profile-sidebar .offcanvas-body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #trainer-profile-sidebar {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #trainer-profile-sidebar {
+    width: 65% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #trainer-profile-sidebar {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #trainer-profile-sidebar {
+    width: 100% !important;
+  }
+}

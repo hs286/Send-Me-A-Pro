@@ -1,0 +1,18 @@
+.input-label {
+  font-size: 16px;
+}
+.already-account {
+  font-size: 12px;
+}
+.social-login-btn {
+  border: none;
+  background: none;
+  padding: 0; 
+  margin: 0;
+  margin-top: 5px;
+}
+.PhoneInputInput{
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  height: 38px;
+}

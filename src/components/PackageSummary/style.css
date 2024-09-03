@@ -1,0 +1,40 @@
+.chout-category-chips-container span {
+  padding: 6px 15px;
+  color: #06bed8;
+  background: rgba(6, 190, 216, 0.1);
+  margin-right: 10px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.form-check-input:checked {
+  background-color: #06bed8 !important;
+  border-color: #06bed8 !important;
+}
+.discount-description {
+  font-size: 12px;
+}
+.term-and-condition-text {
+  font-size: 12px;
+}
+.overlay-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.63);
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discounted-amount{
+  text-decoration: line-through;
+  font-size: 10px;
+}

@@ -1,0 +1,17 @@
+.full-image {
+  max-height: 50vh;
+  object-fit: contain;
+}
+.full-image-modal-body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.full-image-modal-close {
+}
+#full-image-modal .modal-content {
+  background-color: transparent;
+  border: 0px;
+}

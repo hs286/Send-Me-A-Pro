@@ -1,0 +1,373 @@
+#trainer-list-filter-accordian {
+  border: none !important;
+  --bs-accordion-border-width: 0px !important;
+  --bs-accordion-border-radius: 0px !important;
+  --bs-accordion-inner-border-radius: 0px !important;
+  --bs-accordion-btn-focus-border-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: 0px !important;
+  --bs-accordion-body-padding-x: 0px !important;
+  --bs-accordion-body-padding-y: 0px !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+}
+.filter-icon {
+  width: 25px;
+}
+#filter-heading h2 button {
+  padding-top: 0px;
+}
+
+#categories-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#categories-carousel .arrow-btn {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#filter-heading h2 button::after {
+  display: none;
+}
+
+.trainer-list-container {
+  min-height: 60vh;
+}
+
+.trainer-profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #3ee7ff;
+  object-fit: cover;
+}
+
+.trainer-title span {
+  font-size: 20px;
+}
+
+.trainer-title img {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
+.ratings .star-ratings svg {
+  vertical-align: text-bottom;
+}
+
+.ratings span {
+  font-size: 12px;
+}
+
+.profile-location {
+  font-size: 14px;
+}
+
+.profile-location span {
+  margin-left: 5px;
+}
+
+.categories {
+  margin-top: 10px;
+}
+
+.categories-title span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.categories-title img {
+  width: 12px;
+}
+
+.category-chips-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  width: 95%;
+}
+
+.category-chips-container::-webkit-scrollbar {
+  display: none;
+}
+
+.category-chips-container span {
+  padding: 6px 15px;
+  color: #06bed8;
+  background: rgba(6, 190, 216, 0.1);
+  margin-right: 10px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.bio p {
+  font-size: 14px;
+}
+
+.bio p span {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.bio p a,
+.bio p a:hover {
+  text-decoration: none;
+  color: #06bed8;
+}
+
+.package-price-btn {
+  font-size: 10px;
+  padding: 8px;
+  background: none;
+  border: 1px solid #06bed8;
+  color: #06bed8;
+}
+
+.hire-trainer-btn {
+  font-size: 14px;
+  padding: 8px 60px;
+  background: #06bed8;
+  border: 1px solid #06bed8;
+  color: white;
+  margin-left: 15px;
+}
+
+.chat-btn {
+  font-size: 14px;
+  padding: 0px 22px;
+  background: none;
+  border: none;
+  color: black;
+  border-left: 1px solid lightgrey;
+  margin-left: 15px;
+}
+
+.offcanvas-header {
+  justify-content: flex-end !important;
+}
+
+.filter-section-border {
+  border-left: 1px solid #dee2e6;
+  min-height: 80vh;
+}
+
+.read-more-btn {
+  font-size: 14px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  color: #06bed8;
+}
+
+.boradcast-btn-text {
+  font-size: 12px;
+}
+
+.applied-filters-heading{
+  border-top: 1px solid #e9e4e4;
+}
+
+@media screen and (min-width: 320px) {
+  #desktop-filter {
+    display: none;
+  }
+  #mobile-filter {
+    display: block;
+    overflow: scroll;
+  }
+  .filter-bar {
+    display: flex;
+  }
+  .filter-col {
+    min-height: 55px;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    white-space: nowrap;
+    border-bottom: 1px solid #e9e4e4;
+  }
+
+  
+  .filter-col::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-chip {
+    padding: 6px 15px;
+    color: #06bed8;
+    background: rgba(6, 190, 216, 0.1);
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 2px;
+    width: fit-content;
+  }
+
+  .margin-end-negative{
+    margin-right: -5px !important;
+  }
+
+  .applied-filters-heading {
+    font-size: 16px;
+    margin-bottom: 9px !important;
+    font-weight: bold;
+  }
+  .trainer-profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  .package-price-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .hire-trainer-btn {
+    font-size: 11px;
+    padding: 8px;
+    margin-left: 5px;
+  }
+  .chat-btn {
+    font-size: 11px;
+    padding: 8px;
+    margin-left: 5px;
+  }
+  .filter-section-border {
+    border: none;
+  }
+
+  .category-chips-container {
+    width: 100%;
+  }
+  #categories-carousel .arrow-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .trainer-profile-image {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+  }
+  .package-price-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .hire-trainer-btn {
+    font-size: 14px;
+    padding: 8px 30px;
+    margin-left: 15px;
+  }
+  .chat-btn {
+    font-size: 14px;
+    padding: 0px 15px;
+    margin-left: 15px;
+  }
+  .filter-section-border {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .trainer-profile-image {
+    width: 125px;
+    height: 125px;
+    min-width: 125px;
+    min-height: 125px;
+  }
+  .package-price-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .hire-trainer-btn {
+    font-size: 14px;
+    padding: 8px 30px;
+    margin-left: 15px;
+  }
+  .chat-btn {
+    font-size: 14px;
+    padding: 0px 15px;
+    margin-left: 15px;
+  }
+
+  .filter-section-border {
+    border: none;
+  }
+
+  .category-chips-container {
+    width: 95%;
+  }
+  #categories-carousel .arrow-btn {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #desktop-filter {
+    display: block;
+  }
+  #mobile-filter {
+    display: none;
+  }
+  .filter-bar {
+    display: none;
+  }
+  .trainer-profile-image {
+    width: 150px;
+    height: 150px;
+    min-height: 150px;
+    min-width: 150px;
+  }
+  .package-price-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .hire-trainer-btn {
+    font-size: 14px;
+    padding: 8px 30px;
+    margin-left: 15px;
+  }
+  .chat-btn {
+    font-size: 14px;
+    padding: 0px 15px;
+    margin-left: 15px;
+  }
+  .filter-section-border {
+    border-left: 1px solid #dee2e6;
+  }
+  .filter-col {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .trainer-profile-image {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+  }
+  .package-price-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .hire-trainer-btn {
+    font-size: 14px;
+    padding: 8px 60px;
+    margin-left: 15px;
+  }
+  .chat-btn {
+    font-size: 14px;
+    padding: 0px 22px;
+    margin-left: 15px;
+  }
+}

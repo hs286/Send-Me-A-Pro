@@ -1,0 +1,201 @@
+
+.smat-seach-input-form-control {
+  border: none;
+  background-color: #f6f6f6;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.smat-seach-input-form-control:focus,
+.smat-search-btn:focus {
+  border: none;
+  background-color: #f6f6f6;
+  outline: 0;
+  box-shadow: none;
+}
+
+.smat-search-btn,
+.smat-search-btn:hover {
+  border: none;
+  background-color: #f6f6f6 !important;
+  color: #6c757d !important;
+}
+
+.smat-thread-ul {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+}
+
+.smat-thread-ul li {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.smat-thread-avatar {
+  object-fit: cover;
+  border: 3px solid;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.smat-thread-last-message {
+  font-size: 12px;
+  width: 50%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.smat-threads-col {
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.smat-threads-col::-webkit-scrollbar {
+  display: none;
+}
+
+.smat-chat-list-header {
+  /* height: 10%; */
+}
+
+.smat-chat-message-row {
+  overflow-y: auto;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+}
+
+.smat-chat-list-header .chat-list-header-avatar {
+  object-fit: cover;
+  border: 3px solid;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+.chat-message-image {
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  border: 3px solid #3ee7ff;
+  object-fit: cover;
+}
+
+.left-bubble {
+  padding: 5px 20px;
+  border-radius: 20px 20px 20px 0px;
+  width: fit-content;
+  max-width: 85%;
+}
+
+.right-bubble {
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px 20px 0px 20px;
+  width: fit-content;
+  max-width: 85%;
+}
+
+.right-bubble p, .left-bubble p {
+  overflow-wrap: break-word;
+}
+
+.message-icons{
+  width: 2%;
+  font-size: 16px
+}
+
+.system-text{
+  font-size: 12px;
+  font-style: italic;  
+}
+
+/* .react-add-to-calendar{
+  margin-left: 0.6rem!important;
+}
+
+.react-add-to-calendar a{
+  color: white;
+  cursor: pointer;
+} */
+
+.session-logged-time-text{
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.hire-trainer-text{
+  font-size: 14px;
+}
+
+.current-location-text{
+  font-style: italic;
+  font-size: 13px;
+}
+
+.selected-section {
+  border-bottom: 3px solid #3ee7ff;
+}
+
+.smat-menu-ul {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+}
+
+.smat-menu-ul li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  min-width: 200px;
+  margin-bottom: 0px;
+}
+
+.smat-menu-ul span {
+margin-left: 15px;
+font-size: 16px;
+}
+
+.disabled-section {
+  cursor: not-allowed;
+  color: #bcbcbc;
+}
+
+.chat-threads-hamburger{
+  display: none;
+}
+
+.chat-thread-containcer{
+  max-height: 79vh;
+}
+
+.chat-main-row{
+  height: 79vh;
+}
+
+.chat-messages-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .chat-threads-hamburger{
+    display: inline;
+    cursor: pointer;
+  }
+  .chat-thread-containcer{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px){
+    .chat-messages-container{
+      border: none !important;
+    }
+}

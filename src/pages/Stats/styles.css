@@ -1,0 +1,74 @@
+.stats-element-wrapper p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.stats-element-wrapper span{
+    font-size: 12px;
+}
+
+.border-botton{
+    border-bottom: 4px solid gray;
+    border-radius: 10px;
+    width: 30px;
+    margin: 5px 0px;
+}
+
+.disabled-bg{
+    background-color: #168abb;
+}
+
+.expiring-soon-bg{
+    background-color: #e3624f;
+}
+
+.active-bg{
+    background-color: #17bb43;
+}
+.color-white{
+    color: #fff;
+    font-size: 13px;
+}
+.detail-seperator{
+    border-radius: 20px;
+    border-width: 3px;
+    margin: 5px;
+}
+.detail-text{
+    font-size: 12px;
+}
+.price-row{
+    background: lightgray;
+    padding: 20px 0px;
+}
+
+.stats-icons {
+    width: 4%;
+    font-size: 16px
+}
+
+.stats-details-span {
+    font-size: 14px;
+    /* margin-left: 10px; */
+}
+
+.stats-details-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    /* margin-top: 10px; */
+}
+.package-title span {
+    font-size: 18px;
+}
+.package-subtitle{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 575px) {
+    .detail-text{
+        font-size: 10px;
+    }
+}

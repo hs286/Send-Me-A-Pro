@@ -1,0 +1,135 @@
+.tp-trainer-profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #3ee7ff;
+  object-fit: cover;
+}
+
+.tp-trainer-title span {
+  font-size: 20px;
+}
+
+.tp-description {
+  font-size: 12px;
+}
+
+.tp-trainer-title img {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
+.tp-ratings .star-ratings svg {
+  vertical-align: text-bottom;
+}
+
+.tp-location {
+  font-size: 14px;
+}
+
+.tp-location span {
+  margin-left: 5px;
+}
+
+.tp-categories {
+  margin-top: 20px;
+}
+
+.tp-categories-title span {
+  font-size: 14px;
+}
+
+.tp-categories-title img {
+  width: 12px;
+}
+
+.tp-bio p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.tp-category-chips-container span {
+  padding: 6px 15px;
+  color: #06bed8;
+  background: rgba(6, 190, 216, 0.1);
+  margin-right: 10px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.progress.rating-bar {
+  --bs-progress-height: 1rem;
+  --bs-progress-font-size: 0.75rem;
+  --bs-progress-bg: #e9ecef;
+  --bs-progress-border-radius: 0.375rem;
+  --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  --bs-progress-bar-color: #fff;
+  --bs-progress-bar-bg: #06bed8;
+  --bs-progress-bar-transition: width 0.6s ease;
+  display: flex;
+  height: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #06bed8;
+  margin-top: 8px;
+}
+
+.tp-ratting-text {
+  font-size: 72px;
+}
+
+.tp-ratting-out-of {
+  font-size: 12px;
+}
+
+.tp-w-80 {
+  width: 80%;
+}
+
+.tp-w-60 {
+  width: 60%;
+}
+
+.tp-w-40 {
+  width: 40%;
+}
+
+.tp-w-20 {
+  width: 20%;
+}
+
+.client-name-date{
+  font-size: 12px;
+}
+.review-text{
+  font-size: 14px;
+}
+
+.filter-icon{
+  max-width: 25px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-trainer-profile-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and(max-width: 475px) {
+  .tp-ratting-out-of {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .tp-ratting-text {
+    font-size: 24px;
+  }
+  .ratings-container{
+    max-width: 8.33333333% !important;
+  }
+}
