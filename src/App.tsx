@@ -33,9 +33,6 @@ function App() {
   const [isBankDetailModalOpen, setIsBankDetailModalOpen] =
     React.useState(false);
 
-  // const clientId =
-  //   "413867310132-s4e9depk2l56gg6fshlul96nvcqr27da.apps.googleusercontent.com";
-
   const { profile } = useSelector((state: any) => state.user);
 
   const { isFullScreenLoaderVisible } = useSelector(
@@ -48,15 +45,7 @@ function App() {
 
   hotjar?.initialize(3385170, 6);
 
-  // useEffect(() => {
-  //   const initClient = () => {
-  //     gapi?.client?.init({
-  //       clientId: clientId,
-  //       scope: "profile",
-  //     });
-  //   };
-  //   gapi.load("client:auth2", initClient);
-  // });
+  
 
   const fetchInitialData = useCallback(async () => {
     const userProfileFromLocalStorage = await localStorage.getItem(
